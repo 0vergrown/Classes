@@ -1,0 +1,22 @@
+{
+  "type": "apoli:share_effects",
+  "radius": {
+    "x": 8,
+    "y": 2,
+    "z": 8
+  },
+  "bientity_condition": {
+    "type": "apoli:all_of",
+    "conditions": [
+      {
+        "type": "apoli:owner"
+      },
+      {
+        "type": "apoli:target_condition",
+        "condition": {
+          "type": "apoli:tamed"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{BlacksmithQuality:1b}",
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "origins-classes:blacksmith/armor"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "attribute.modifier.plus.0",
+        "with": [
+          "0.25",
+          {
+            "translate": "attribute.name.generic.armor_toughness"
+          }
+        ],
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "origins-classes:blacksmith/armor"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{BlacksmithQuality:1b}",
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "origins-classes:blacksmith/weapons"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "attribute.modifier.plus.0",
+        "with": [
+          "0.5",
+          {
+            "translate": "attribute.name.generic.attack_damage"
+          }
+        ],
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "origins-classes:blacksmith/weapons"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{BlacksmithQuality:1b}",
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "origins-classes:shields"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "attribute.modifier.plus.0",
+        "with": [
+          "1",
+          {
+            "translate": "attribute.name.generic.knockback_resistance"
+          }
+        ],
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "origins-classes:shields"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{BlacksmithQuality:1b}",
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "origins-classes:blacksmith/mining_tools"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "origins-classes.mining_speed_bonus",
+        "with": [
+          "+5%"
+        ],
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "origins-classes:blacksmith/mining_tools"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "type": "apoli:modify_enchantability",
+  "modifier": {
+    "operation": "add_base_early",
+    "value": 10
+  }
+}

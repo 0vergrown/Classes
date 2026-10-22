@@ -1,0 +1,38 @@
+{
+  "type": "apoli:modify_exhaustion",
+  "modifier": {
+    "operation": "set_total",
+    "value": "if(abs(value - 0.2) < 0.000001 || abs(value - 0.1) < 0.000001 || abs(value - 0.005) < 0.0000001, value, 0)"
+  },
+  "condition": {
+    "type": "apoli:all_of",
+    "conditions": [
+      {
+        "type": "apoli:sprinting"
+      },
+      {
+        "type": "apoli:on_block"
+      },
+      {
+        "type": "apoli:swimming",
+        "inverted": true
+      },
+      {
+        "type": "apoli:submerged_in",
+        "fluid": "minecraft:water",
+        "inverted": true
+      },
+      {
+        "type": "apoli:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0,
+        "inverted": true
+      },
+      {
+        "type": "apoli:climbing",
+        "inverted": true
+      }
+    ]
+  }
+}

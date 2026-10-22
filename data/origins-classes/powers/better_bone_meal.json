@@ -1,0 +1,71 @@
+{
+  "type": "apoli:action_on_block_use",
+  "condition": {
+    "type": "apoli:gamemode",
+    "gamemode": "adventure",
+    "inverted": true
+  },
+  "item_condition": {
+    "type": "apoli:ingredient",
+    "ingredient": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "block_condition": {
+    "type": "apoli:all_of",
+    "conditions": [
+      {
+        "type": "apoli:all_of",
+        "inverted": true,
+        "conditions": [
+          {
+            "type": "apoli:block",
+            "block": "minecraft:sweet_berry_bush"
+          },
+          {
+            "type": "apoli:block_state",
+            "property": "age",
+            "comparison": "==",
+            "compare_to": 3
+          }
+        ]
+      },
+      {
+        "type": "apoli:all_of",
+        "inverted": true,
+        "conditions": [
+          {
+            "type": "apoli:any_of",
+            "conditions": [
+              {
+                "type": "apoli:block",
+                "block": "minecraft:cave_vines"
+              },
+              {
+                "type": "apoli:block",
+                "block": "minecraft:cave_vines_plant"
+              }
+            ]
+          },
+          {
+            "type": "apoli:block_state",
+            "property": "berries",
+            "value": true
+          }
+        ]
+      }
+    ]
+  },
+  "action_result": "pass",
+  "block_action": {
+    "type": "apoli:delay",
+    "ticks": 1,
+    "action": {
+      "type": "apoli:offset",
+      "action": {
+        "type": "apoli:bonemeal",
+        "effects": false
+      }
+    }
+  }
+}

@@ -1,0 +1,641 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.06,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:carrot_on_a_stick"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.078125,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:golden_sword",
+            "minecraft:golden_pickaxe",
+            "minecraft:golden_axe",
+            "minecraft:golden_shovel",
+            "minecraft:golden_hoe"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.1,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:leather_helmet"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09322033898305085,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:wooden_sword",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_axe",
+            "minecraft:wooden_shovel",
+            "minecraft:wooden_hoe"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.0859375,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:flint_and_steel",
+            "minecraft:fishing_rod",
+            "minecraft:brush"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.08461538461538462,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:leather_boots"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.1,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:leather_leggings"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09740259740259741,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:golden_helmet"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09375,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:leather_chestplate"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09340659340659341,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:golden_boots"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.095,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09047619047619047,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:golden_leggings"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09375,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:golden_chestplate"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09541984732824428,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:stone_sword",
+            "minecraft:stone_pickaxe",
+            "minecraft:stone_axe",
+            "minecraft:stone_shovel",
+            "minecraft:stone_hoe"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09393939393939393,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:chainmail_helmet",
+            "minecraft:iron_helmet"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.1,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:chainmail_boots",
+            "minecraft:iron_boots"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09555555555555556,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:chainmail_leggings",
+            "minecraft:iron_leggings"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09873949579831932,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:shears"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09791666666666667,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:chainmail_chestplate",
+            "minecraft:iron_chestplate"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.098,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:iron_sword",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_axe",
+            "minecraft:iron_shovel",
+            "minecraft:iron_hoe",
+            "minecraft:trident"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.1,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:turtle_helmet"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09970238095238096,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:shield"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09779614325068871,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:diamond_helmet"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09765625,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:bow"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09950859950859951,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:netherite_helmet"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09906759906759907,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:diamond_boots"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09837962962962964,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.0978494623655914,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09875259875259876,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:netherite_boots"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.1,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:diamond_leggings"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09943181818181818,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:diamond_chestplate"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.1,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:netherite_leggings"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09881756756756757,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:netherite_chestplate"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09961563100576554,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:diamond_sword",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_shovel",
+            "minecraft:diamond_hoe"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.09970457902511078,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:netherite_sword",
+            "minecraft:netherite_pickaxe",
+            "minecraft:netherite_axe",
+            "minecraft:netherite_shovel",
+            "minecraft:netherite_hoe"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.1,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:carrot_on_a_stick",
+              "minecraft:golden_sword",
+              "minecraft:golden_pickaxe",
+              "minecraft:golden_axe",
+              "minecraft:golden_shovel",
+              "minecraft:golden_hoe",
+              "minecraft:leather_helmet",
+              "minecraft:wooden_sword",
+              "minecraft:wooden_pickaxe",
+              "minecraft:wooden_axe",
+              "minecraft:wooden_shovel",
+              "minecraft:wooden_hoe",
+              "minecraft:flint_and_steel",
+              "minecraft:fishing_rod",
+              "minecraft:brush",
+              "minecraft:leather_boots",
+              "minecraft:leather_leggings",
+              "minecraft:golden_helmet",
+              "minecraft:leather_chestplate",
+              "minecraft:golden_boots",
+              "minecraft:warped_fungus_on_a_stick",
+              "minecraft:golden_leggings",
+              "minecraft:golden_chestplate",
+              "minecraft:stone_sword",
+              "minecraft:stone_pickaxe",
+              "minecraft:stone_axe",
+              "minecraft:stone_shovel",
+              "minecraft:stone_hoe",
+              "minecraft:chainmail_helmet",
+              "minecraft:iron_helmet",
+              "minecraft:chainmail_boots",
+              "minecraft:iron_boots",
+              "minecraft:chainmail_leggings",
+              "minecraft:iron_leggings",
+              "minecraft:shears",
+              "minecraft:chainmail_chestplate",
+              "minecraft:iron_chestplate",
+              "minecraft:iron_sword",
+              "minecraft:iron_pickaxe",
+              "minecraft:iron_axe",
+              "minecraft:iron_shovel",
+              "minecraft:iron_hoe",
+              "minecraft:trident",
+              "minecraft:turtle_helmet",
+              "minecraft:shield",
+              "minecraft:diamond_helmet",
+              "minecraft:bow",
+              "minecraft:netherite_helmet",
+              "minecraft:diamond_boots",
+              "minecraft:elytra",
+              "minecraft:crossbow",
+              "minecraft:netherite_boots",
+              "minecraft:diamond_leggings",
+              "minecraft:diamond_chestplate",
+              "minecraft:netherite_leggings",
+              "minecraft:netherite_chestplate",
+              "minecraft:diamond_sword",
+              "minecraft:diamond_pickaxe",
+              "minecraft:diamond_axe",
+              "minecraft:diamond_shovel",
+              "minecraft:diamond_hoe",
+              "minecraft:netherite_sword",
+              "minecraft:netherite_pickaxe",
+              "minecraft:netherite_axe",
+              "minecraft:netherite_shovel",
+              "minecraft:netherite_hoe"
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

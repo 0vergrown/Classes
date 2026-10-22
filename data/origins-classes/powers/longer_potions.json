@@ -1,0 +1,760 @@
+{
+  "type": "apoli:multiple",
+  "extend_1_20": {
+    "type": "apoli:action_on_block_use",
+    "load_condition": {
+      "type": "apoli:minecraft_version",
+      "version": "1.21",
+      "comparison": "<"
+    },
+    "block_condition": {
+      "type": "apoli:block",
+      "block": "minecraft:water_cauldron"
+    },
+    "item_condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:ingredient",
+          "ingredient": {
+            "tag": "origins-classes:cleric/potions"
+          }
+        },
+        {
+          "type": "apoli:nbt",
+          "nbt": "{IsExtendedByCleric:1b}",
+          "inverted": true
+        },
+        {
+          "type": "apoli:any_of",
+          "conditions": [
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:night_vision\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_night_vision\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:invisibility\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:leaping\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_leaping\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_leaping\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_fire_resistance\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:swiftness\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:slowness\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_slowness\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_slowness\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:turtle_master\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:water_breathing\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_water_breathing\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:healing\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_healing\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:harming\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_harming\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:poison\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_poison\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_poison\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:regeneration\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strength\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_strength\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:strong_strength\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:weakness\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_weakness\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:luck\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:slow_falling\"}"
+            },
+            {
+              "type": "apoli:nbt",
+              "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+            }
+          ]
+        }
+      ]
+    },
+    "held_item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins-classes:cleric/extend_potion"
+    },
+    "block_action": {
+      "type": "apoli:and",
+      "actions": [
+        {
+          "type": "apoli:if_else",
+          "condition": {
+            "type": "apoli:block_state",
+            "property": "level",
+            "comparison": "<=",
+            "compare_to": 1
+          },
+          "if_action": {
+            "type": "apoli:set_block",
+            "block": "minecraft:cauldron"
+          },
+          "else_action": {
+            "type": "apoli:modify_block_state",
+            "property": "level",
+            "operation": "add",
+            "change": -1
+          }
+        },
+        {
+          "type": "apoli:execute_command",
+          "command": "playsound minecraft:item.bottle.fill block @a ~ ~ ~ 1 1"
+        }
+      ]
+    },
+    "entity_action": {
+      "type": "apoli:emit_game_event",
+      "event": "minecraft:fluid_pickup"
+    },
+    "action_result": "success"
+  },
+  "extend_1_21": {
+    "type": "apoli:action_on_block_use",
+    "load_condition": {
+      "type": "apoli:minecraft_version",
+      "version": "1.21",
+      "comparison": ">="
+    },
+    "block_condition": {
+      "type": "apoli:block",
+      "block": "minecraft:water_cauldron"
+    },
+    "item_condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:ingredient",
+          "ingredient": {
+            "tag": "origins-classes:cleric/potions"
+          }
+        },
+        {
+          "type": "apoli:nbt",
+          "nbt": "{IsExtendedByCleric:1b}",
+          "inverted": true
+        },
+        {
+          "type": "apoli:ingredient",
+          "ingredient": {
+            "fabric:type": "fabric:any",
+            "ingredients": [
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:night_vision"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_night_vision"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:invisibility"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_invisibility"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:leaping"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_leaping"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_leaping"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:fire_resistance"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_fire_resistance"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:swiftness"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_swiftness"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_swiftness"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:slowness"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_slowness"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_slowness"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:turtle_master"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_turtle_master"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_turtle_master"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:water_breathing"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_water_breathing"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:healing"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_healing"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:harming"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_harming"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:poison"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_poison"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_poison"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:regeneration"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_regeneration"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_regeneration"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strength"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_strength"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_strength"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:weakness"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_weakness"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:luck"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:slow_falling"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_slow_falling"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:wind_charged"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:weaving"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:oozing"
+                  }
+                }
+              },
+              {
+                "fabric:type": "fabric:components",
+                "base": {
+                  "tag": "origins-classes:cleric/potions"
+                },
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:infested"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "held_item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins-classes:cleric/extend_potion"
+    },
+    "block_action": {
+      "type": "apoli:and",
+      "actions": [
+        {
+          "type": "apoli:if_else",
+          "condition": {
+            "type": "apoli:block_state",
+            "property": "level",
+            "comparison": "<=",
+            "compare_to": 1
+          },
+          "if_action": {
+            "type": "apoli:set_block",
+            "block": "minecraft:cauldron"
+          },
+          "else_action": {
+            "type": "apoli:modify_block_state",
+            "property": "level",
+            "operation": "add",
+            "change": -1
+          }
+        },
+        {
+          "type": "apoli:execute_command",
+          "command": "playsound minecraft:item.bottle.fill block @a ~ ~ ~ 1 1"
+        }
+      ]
+    },
+    "entity_action": {
+      "type": "apoli:emit_game_event",
+      "event": "minecraft:fluid_pickup"
+    },
+    "action_result": "success"
+  }
+}

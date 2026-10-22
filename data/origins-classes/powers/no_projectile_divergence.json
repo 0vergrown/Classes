@@ -1,0 +1,7 @@
+{
+  "type": "apoli:modify_projectile_divergence",
+  "modifier": {
+    "operation": "set_total",
+    "value": 0
+  }
+}

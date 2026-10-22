@@ -1,0 +1,20 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{FoodBonus:2}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "origins-classes.food_bonus",
+        "with": [
+          "2"
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "mode": "append"
+  }
+]

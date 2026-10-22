@@ -1,0 +1,43 @@
+{
+  "type": "apoli:multiple",
+  "tamed": {
+    "type": "apoli:action_on_tame",
+    "bientity_action": {
+      "type": "apoli:target_action",
+      "action": {
+        "type": "apoli:execute_command",
+        "command": "function origins-classes:beastmaster/boost"
+      }
+    }
+  },
+  "offspring": {
+    "type": "apoli:action_on_breed",
+    "bientity_condition": {
+      "type": "apoli:target_condition",
+      "condition": {
+        "type": "apoli:any_of",
+        "conditions": [
+          {
+            "type": "apoli:entity_type",
+            "entity_type": "minecraft:wolf"
+          },
+          {
+            "type": "apoli:entity_type",
+            "entity_type": "minecraft:cat"
+          },
+          {
+            "type": "apoli:entity_type",
+            "entity_type": "minecraft:horse"
+          }
+        ]
+      }
+    },
+    "bientity_action": {
+      "type": "apoli:target_action",
+      "action": {
+        "type": "apoli:execute_command",
+        "command": "function origins-classes:beastmaster/boost"
+      }
+    }
+  }
+}

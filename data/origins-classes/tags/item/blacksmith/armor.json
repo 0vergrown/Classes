@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#origins-classes:blacksmith/head_armor",
+    "#origins-classes:blacksmith/chest_armor",
+    "#origins-classes:blacksmith/leg_armor",
+    "#origins-classes:blacksmith/foot_armor"
+  ]
+}

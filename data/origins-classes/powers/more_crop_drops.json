@@ -1,0 +1,6 @@
+{
+  "type": "apoli:replace_loot_table",
+  "replace": {
+    "minecraft:blocks/(wheat|carrots|potatoes|beetroots|torchflower_crop|melon)": "origins-classes:farmer/bountiful_harvest"
+  }
+}

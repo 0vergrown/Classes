@@ -1,0 +1,34 @@
+{
+  "type": "apoli:extra_trades",
+  "bientity_condition": {
+    "type": "apoli:target_condition",
+    "condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:wandering_trader"
+    }
+  },
+  "trades": [
+    {
+      "buy": {
+        "loot_table": "origins-classes:merchant/price"
+      },
+      "sell": {
+        "loot_table": "origins-classes:merchant/rare_item"
+      },
+      "max_uses": 1,
+      "xp": 5,
+      "price_multiplier": 0.05
+    },
+    {
+      "buy": {
+        "loot_table": "origins-classes:merchant/wanted_item"
+      },
+      "sell": {
+        "loot_table": "origins-classes:merchant/rare_item"
+      },
+      "max_uses": 1,
+      "xp": 5,
+      "price_multiplier": 0.05
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#origins-classes:blacksmith/armor",
+    "#origins-classes:blacksmith/weapons",
+    "#origins-classes:shields",
+    "#origins-classes:blacksmith/mining_tools"
+  ]
+}

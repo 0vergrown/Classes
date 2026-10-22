@@ -1,0 +1,13 @@
+{
+  "type": "apoli:modify_use_slowdown",
+  "item_condition": {
+    "type": "apoli:ingredient",
+    "ingredient": {
+      "tag": "origins-classes:shields"
+    }
+  },
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 2
+  }
+}

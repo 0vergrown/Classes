@@ -1,0 +1,11 @@
+{
+  "type": "apoli:modify_xp_gain",
+  "block_condition": {
+    "type": "apoli:block",
+    "block": "minecraft:smoker"
+  },
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "apoli:action_on_breed",
+  "parents_action": {
+    "type": "apoli:random_chance",
+    "chance": 0.2,
+    "action": {
+      "type": "apoli:breed"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "apoli:modify_exhaustion",
+  "modifier": {
+    "operation": "set_total",
+    "value": "if(abs(value - 0.005) < 0.0000001, 0, value)"
+  }
+}

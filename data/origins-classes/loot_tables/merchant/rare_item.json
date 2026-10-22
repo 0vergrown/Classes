@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "origins-classes:merchant/obtainable",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "origins-classes:merchant/obtainable",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3333333333333333
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 30
+                  },
+                  "treasure": false
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "origins-classes:merchant/obtainable"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

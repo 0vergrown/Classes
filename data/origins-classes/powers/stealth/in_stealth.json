@@ -1,0 +1,66 @@
+{
+  "type": "apoli:multiple",
+  "hidden": true,
+  "muffled": {
+    "type": "apoli:replace_sound_emission",
+    "sounds": {
+      "^(?!minecraft:(?:entity\\.player\\.attack\\..+|entity\\.player\\.levelup|item\\.armor\\.equip_.+|entity\\.arrow\\.hit_player)$).+$": "minecraft:empty"
+    },
+    "condition": {
+      "type": "apoli:command",
+      "command": "execute if entity @s",
+      "comparison": ">=",
+      "compare_to": 1
+    }
+  },
+  "backstab": {
+    "type": "apoli:modify_damage_dealt",
+    "damage_condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:type",
+          "damage_type": "minecraft:player_attack"
+        },
+        {
+          "type": "apoli:critical",
+          "inverted": true
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "add_base_early",
+      "value": "if(abs(mod(mod(target_yaw, 360) + 360, 360) - mod(mod(yaw, 360) + 360, 360)) < 80, attribute[minecraft:generic.attack_damage] * (0.2 + attack_charge * attack_charge * 0.8), 0)"
+    },
+    "self_action": {
+      "type": "apoli:clear_effect",
+      "effect": "origins-classes:stealth"
+    }
+  },
+  "critical_backstab": {
+    "type": "apoli:modify_damage_dealt",
+    "damage_condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:type",
+          "damage_type": "minecraft:player_attack"
+        },
+        {
+          "type": "apoli:critical"
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "add_base_early",
+      "value": "if(abs(mod(mod(target_yaw, 360) + 360, 360) - mod(mod(yaw, 360) + 360, 360)) < 80, attribute[minecraft:generic.attack_damage] * (0.2 + attack_charge * attack_charge * 0.8) * 1.5, 0)"
+    },
+    "self_action": {
+      "type": "apoli:clear_effect",
+      "effect": "origins-classes:stealth"
+    }
+  },
+  "silent_world_events": {
+    "type": "apoli:prevent_level_event"
+  }
+}

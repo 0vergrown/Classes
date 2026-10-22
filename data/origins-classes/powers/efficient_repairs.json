@@ -1,0 +1,22 @@
+{
+  "type": "apoli:multiple",
+  "crafting": {
+    "type": "apoli:modify_crafting",
+    "recipe": "minecraft:repair_item",
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins-classes:blacksmith/efficient_repair"
+    }
+  },
+  "anvil": {
+    "type": "apoli:modify_anvil",
+    "repair_material_modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": -0.5
+    },
+    "combine_bonus_modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": 11
+    }
+  }
+}

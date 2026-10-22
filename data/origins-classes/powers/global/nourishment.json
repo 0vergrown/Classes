@@ -1,0 +1,82 @@
+{
+  "type": "apoli:action_on_item_use",
+  "hidden": true,
+  "trigger": "finish",
+  "item_action": {
+    "type": "apoli:if_else_list",
+    "actions": [
+      {
+        "condition": {
+          "type": "apoli:nbt",
+          "nbt": "{FoodBonus:1}"
+        },
+        "action": {
+          "type": "apoli:holder_action",
+          "entity_action": {
+            "type": "apoli:delay",
+            "ticks": 1,
+            "action": {
+              "type": "apoli:feed",
+              "food": 1,
+              "saturation": 0.2
+            }
+          }
+        }
+      },
+      {
+        "condition": {
+          "type": "apoli:nbt",
+          "nbt": "{FoodBonus:2}"
+        },
+        "action": {
+          "type": "apoli:holder_action",
+          "entity_action": {
+            "type": "apoli:delay",
+            "ticks": 1,
+            "action": {
+              "type": "apoli:feed",
+              "food": 2,
+              "saturation": 0.4
+            }
+          }
+        }
+      },
+      {
+        "condition": {
+          "type": "apoli:nbt",
+          "nbt": "{FoodBonus:3}"
+        },
+        "action": {
+          "type": "apoli:holder_action",
+          "entity_action": {
+            "type": "apoli:delay",
+            "ticks": 1,
+            "action": {
+              "type": "apoli:feed",
+              "food": 3,
+              "saturation": 0.6
+            }
+          }
+        }
+      },
+      {
+        "condition": {
+          "type": "apoli:nbt",
+          "nbt": "{FoodBonus:4}"
+        },
+        "action": {
+          "type": "apoli:holder_action",
+          "entity_action": {
+            "type": "apoli:delay",
+            "ticks": 1,
+            "action": {
+              "type": "apoli:feed",
+              "food": 4,
+              "saturation": 0.8
+            }
+          }
+        }
+      }
+    ]
+  }
+}

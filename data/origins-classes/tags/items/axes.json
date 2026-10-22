@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:axes",
+    {
+      "id": "#c:axes",
+      "required": false
+    },
+    {
+      "id": "#c:tools/axe",
+      "required": false
+    },
+    {
+      "id": "#c:tools/axes",
+      "required": false
+    }
+  ]
+}

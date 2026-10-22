@@ -1,0 +1,57 @@
+{
+  "type": "apoli:modify_crafting",
+  "item_condition": {
+    "type": "apoli:food"
+  },
+  "item_action": {
+    "type": "apoli:if_else_list",
+    "actions": [
+      {
+        "condition": {
+          "type": "apoli:ingredient",
+          "ingredient": {
+            "tag": "origins-classes:cook/nourishment_4"
+          }
+        },
+        "action": {
+          "type": "apoli:modify",
+          "modifier": "origins-classes:cook/nourishment_4"
+        }
+      },
+      {
+        "condition": {
+          "type": "apoli:ingredient",
+          "ingredient": {
+            "tag": "origins-classes:cook/nourishment_3"
+          }
+        },
+        "action": {
+          "type": "apoli:modify",
+          "modifier": "origins-classes:cook/nourishment_3"
+        }
+      },
+      {
+        "condition": {
+          "type": "apoli:ingredient",
+          "ingredient": {
+            "tag": "origins-classes:cook/nourishment_2"
+          }
+        },
+        "action": {
+          "type": "apoli:modify",
+          "modifier": "origins-classes:cook/nourishment_2"
+        }
+      },
+      {
+        "condition": {
+          "type": "apoli:constant",
+          "value": true
+        },
+        "action": {
+          "type": "apoli:modify",
+          "modifier": "origins-classes:cook/nourishment_1"
+        }
+      }
+    ]
+  }
+}

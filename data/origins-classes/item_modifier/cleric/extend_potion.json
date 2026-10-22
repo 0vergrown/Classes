@@ -1,0 +1,3443 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.night_vision"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:night_vision"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.night_vision"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:night_vision"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.night_vision"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:night_vision"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.night_vision"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_night_vision"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.night_vision"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_night_vision"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.night_vision"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_night_vision"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.invisibility"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:invisibility"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.invisibility"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:invisibility"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.invisibility"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:invisibility"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.invisibility"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_invisibility"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.invisibility"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_invisibility"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.invisibility"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_invisibility"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.leaping"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.fire_resistance"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:fire_resistance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.fire_resistance"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:fire_resistance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.fire_resistance"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:fire_resistance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.fire_resistance"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_fire_resistance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.fire_resistance"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_fire_resistance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.fire_resistance"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_fire_resistance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.swiftness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.slowness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.turtle_master"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.water_breathing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:water_breathing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.water_breathing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:water_breathing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.water_breathing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:water_breathing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.water_breathing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_water_breathing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.water_breathing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_water_breathing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.water_breathing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_water_breathing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.healing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:healing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.healing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:healing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.healing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:healing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.healing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_healing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.healing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_healing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.healing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_healing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.harming"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:harming"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.harming"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:harming"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.harming"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:harming"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.harming"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_harming"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.harming"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_harming"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.harming"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_harming"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.poison"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.regeneration"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.strength"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.weakness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:weakness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.weakness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:weakness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.weakness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:weakness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.weakness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_weakness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.weakness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_weakness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.weakness"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_weakness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.luck"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:luck"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.luck"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:luck"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.luck"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:luck"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.slow_falling"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:slow_falling"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.slow_falling"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:slow_falling"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.slow_falling"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:slow_falling"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.slow_falling"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_slow_falling"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.slow_falling"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_slow_falling"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.slow_falling"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_slow_falling"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.wind_charged"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:wind_charged"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.wind_charged"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:wind_charged"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.wind_charged"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:wind_charged"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.weaving"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:weaving"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.weaving"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:weaving"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.weaving"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:weaving"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.oozing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:oozing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.oozing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:oozing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.oozing"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:oozing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.potion.effect.infested"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:infested"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.splash_potion.effect.infested"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:splash_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:infested"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "item.minecraft.lingering_potion.effect.infested"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:lingering_potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:infested"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{IsExtendedByCleric:1b}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "origins-classes.longer_potions",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    "mode": "append"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:night_vision",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:night_vision"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:night_vision",
+            "amplifier": 0,
+            "duration": 19200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_night_vision"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:invisibility",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:invisibility"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:invisibility",
+            "amplifier": 0,
+            "duration": 19200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_invisibility"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "amplifier": 0,
+            "duration": 19200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "amplifier": 1,
+            "duration": 3600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_leaping"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:fire_resistance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "duration": 19200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_fire_resistance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "amplifier": 0,
+            "duration": 19200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "amplifier": 1,
+            "duration": 3600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_swiftness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 0,
+            "duration": 3600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 0,
+            "duration": 9600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 3,
+            "duration": 800,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_slowness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 3,
+            "duration": 800,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 2,
+            "duration": 800,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 3,
+            "duration": 1600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 2,
+            "duration": 1600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 5,
+            "duration": 800,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 3,
+            "duration": 800,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_turtle_master"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:water_breathing",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:water_breathing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:water_breathing",
+            "amplifier": 0,
+            "duration": 19200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_water_breathing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:instant_health",
+            "amplifier": 0,
+            "duration": 1,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:healing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:instant_health",
+            "amplifier": 1,
+            "duration": 1,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_healing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:instant_damage",
+            "amplifier": 0,
+            "duration": 1,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:harming"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:instant_damage",
+            "amplifier": 1,
+            "duration": 1,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_harming"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:poison",
+            "amplifier": 0,
+            "duration": 1800,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:poison",
+            "amplifier": 0,
+            "duration": 3600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:poison",
+            "amplifier": 1,
+            "duration": 864,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_poison"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 1800,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 3600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 1,
+            "duration": 900,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_regeneration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:strength",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:strength",
+            "amplifier": 0,
+            "duration": 19200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:strength",
+            "amplifier": 1,
+            "duration": 3600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:strong_strength"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:weakness",
+            "amplifier": 0,
+            "duration": 3600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:weakness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:weakness",
+            "amplifier": 0,
+            "duration": 9600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_weakness"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:luck",
+            "amplifier": 0,
+            "duration": 12000,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:luck"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:slow_falling",
+            "amplifier": 0,
+            "duration": 3600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:slow_falling"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:slow_falling",
+            "amplifier": 0,
+            "duration": 9600,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:long_slow_falling"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:wind_charged",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:wind_charged"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:weaving",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:weaving"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:oozing",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:oozing"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:infested",
+            "amplifier": 0,
+            "duration": 7200,
+            "ambient": false,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:infested"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "entity_types": "minecraft:player",
+  "powers": [
+    "origins-classes:global/nourishment",
+    "origins-classes:global/quality_equipment"
+  ]
+}

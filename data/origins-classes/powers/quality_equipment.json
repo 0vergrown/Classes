@@ -1,0 +1,61 @@
+{
+  "type": "apoli:multiple",
+  "crafting_1_20": {
+    "type": "apoli:modify_crafting",
+    "load_condition": {
+      "type": "apoli:minecraft_version",
+      "version": "1.21",
+      "comparison": "<"
+    },
+    "item_condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:ingredient",
+          "ingredient": {
+            "tag": "origins-classes:blacksmith/quality_equipment"
+          }
+        },
+        {
+          "type": "apoli:nbt",
+          "nbt": "{display:{}}",
+          "inverted": true
+        },
+        {
+          "type": "apoli:nbt",
+          "nbt": "{BlockEntityTag:{}}",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins-classes:blacksmith/quality"
+    }
+  },
+  "crafting_1_21": {
+    "type": "apoli:modify_crafting",
+    "load_condition": {
+      "type": "apoli:minecraft_version",
+      "version": "1.21",
+      "comparison": ">="
+    },
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "fabric:type": "fabric:components",
+        "base": {
+          "tag": "origins-classes:blacksmith/quality_equipment"
+        },
+        "components": {
+          "!minecraft:dyed_color": {},
+          "!minecraft:base_color": {}
+        }
+      }
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins-classes:blacksmith/quality"
+    }
+  }
+}

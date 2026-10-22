@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Origins: Classes as a data pack for Apoli and Origins. Also load it as a resource pack for its translations and the Stealth icon.",
+    "pack_format": 15,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 48
+    }
+  }
+}

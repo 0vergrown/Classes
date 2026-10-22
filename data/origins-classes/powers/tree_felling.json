@@ -1,0 +1,111 @@
+{
+  "type": "apoli:multiple",
+  "fell": {
+    "type": "apoli:action_on_block_break",
+    "condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+              "tag": "origins-classes:axes"
+            }
+          }
+        },
+        {
+          "type": "apoli:sneaking",
+          "inverted": true
+        }
+      ]
+    },
+    "block_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:logs"
+    },
+    "only_when_harvested": false,
+    "block_action": {
+      "downward": false,
+      "limit": 256,
+      "neighbor_condition": {
+        "type": "apoli:all_of",
+        "conditions": [
+          {
+            "type": "apoli:in_tag",
+            "tag": "minecraft:leaves"
+          },
+          {
+            "type": "apoli:block_state",
+            "property": "persistent",
+            "value": false
+          }
+        ]
+      },
+      "type": "apoli:connected_blocks",
+      "actor_condition": {
+        "type": "apoli:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "apoli:ingredient",
+          "ingredient": {
+            "tag": "origins-classes:axes"
+          }
+        }
+      },
+      "block_action": {
+        "type": "apoli:break_block",
+        "mine": true
+      }
+    }
+  },
+  "chop_time": {
+    "type": "apoli:modify_break_speed",
+    "condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+              "tag": "origins-classes:axes"
+            }
+          }
+        },
+        {
+          "type": "apoli:sneaking",
+          "inverted": true
+        }
+      ]
+    },
+    "block_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:logs"
+    },
+    "connected_blocks": {
+      "downward": false,
+      "limit": 256,
+      "neighbor_condition": {
+        "type": "apoli:all_of",
+        "conditions": [
+          {
+            "type": "apoli:in_tag",
+            "tag": "minecraft:leaves"
+          },
+          {
+            "type": "apoli:block_state",
+            "property": "persistent",
+            "value": false
+          }
+        ]
+      }
+    },
+    "modifier": {
+      "operation": "multiply_total_multiplicative",
+      "value": "1 / max(1, ceil(0.75 * min(count, if(durability[weapon.mainhand] > 0, durability[weapon.mainhand] - 1, 127)))) - 1"
+    }
+  }
+}

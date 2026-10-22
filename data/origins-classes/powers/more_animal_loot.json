@@ -1,0 +1,28 @@
+{
+  "type": "apoli:multiple",
+  "animals": {
+    "type": "apoli:replace_loot_table",
+    "replace": {
+      "minecraft:entities/(armadillo|axolotl|bee|camel|cat|chicken|cow|donkey|fox|frog|goat|hoglin|horse|llama|mooshroom|mule|ocelot|panda|parrot|pig|polar_bear|rabbit|skeleton_horse|sniffer|strider|trader_llama|turtle|wolf|zombie_horse)": "origins-classes:rancher/scavenging"
+    }
+  },
+  "unsheared_sheep": {
+    "type": "apoli:replace_loot_table",
+    "replace": {
+      "minecraft:entities/sheep/[a-z_]+": "origins-classes:rancher/scavenging"
+    }
+  },
+  "sheared_sheep": {
+    "type": "apoli:replace_loot_table",
+    "replace": {
+      "minecraft:entities/sheep": "origins-classes:rancher/scavenging"
+    },
+    "bientity_condition": {
+      "type": "apoli:target_condition",
+      "condition": {
+        "type": "apoli:nbt",
+        "nbt": "{Sheared:1b}"
+      }
+    }
+  }
+}
